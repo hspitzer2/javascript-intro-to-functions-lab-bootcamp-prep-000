@@ -9,25 +9,12 @@ function logShout(string) {
   console.log('HELLO');
 }
 function logWhisper(string) {
-  console.log('hello');
+console.log(string.toLowerCase());
 }
-var message = `("${string}, grandma")`;
-var sayHiToGrandma = "string";
-var sayILoveYouToGrandma = "I Love You, Grandma";
-console.log("hello");
-function sayHiToGrandmalogWhisper(){
-console.log(`"${whisper}, grandma!"`);
-return "I can't hear you!";
-}
-function sayHiToGrandmalogShout(){
-  console.log(`"${shout}, grandma!"`);
+function sayHiToGrandma(string) {
+if (string.ToUpperCase() === string) 
   return "YES INDEED!";
 }
-function sayILoveYouToGrandma(){
-  console.log(`"${"I love you"}, grandma"`);
+if (string() === "I love you, Grandma.");{
+return "I love you, too";
 }
-function sayILoveYouToGrandma(){
-  console.log("I love you, grandma!");
-  return "I love you, too.";
-}
-
